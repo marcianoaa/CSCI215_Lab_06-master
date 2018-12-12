@@ -14,7 +14,13 @@ function checkAge() {
     }
 }
 
+function checkName() {
 
+}
+
+function validate() {
+
+}
 
 document.getElementById('name').onkeyup = function() {
     var name = document.getElementById('name');
