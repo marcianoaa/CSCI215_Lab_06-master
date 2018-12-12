@@ -3,27 +3,28 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Subscribe to CosmoFarmer.com</title>
-<link href="global.css" rel="stylesheet">
-<style>
+<link rel="stylesheet" href="global.css">
 
-</style>
 </head>
 <body>
+
+<script src="action.js"></script>
+
 <h1>Reader Subscription Form</h1>
-<form class="subform"  method="post" action="#">
+<form class="subform"  method="post" action="submit.html">
 	<p>
 		<label for="name" class="label">What is your name?</label>
 		<input type="text" name="name" id="name">
 	</p>
 	<p>
-		<label for="email" class="label">What is your email address?</label>
+		<label for="email"class="label">What is your email address?</label>
 		<input type="text" name="email" id="email">
 	</p>
 	<p>
 		<label for="age">What is your age?</label>
 		<input type="text" name="age" id="age">
 	</p>
-	<p><span class="label>" Rate your apartment farming skills</p>
+	<p><span class="label">Rate your apartment farming skills</span>
 		<label>
 			<input name="skill" type="radio" value="novice">
 			Novice</label>
@@ -53,4 +54,5 @@
 	</p>
 </form>
 </body>
+
 </html>
